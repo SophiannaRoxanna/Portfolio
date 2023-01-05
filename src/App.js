@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 
 import { P } from "./patterns/atoms/Texts";
 import "./App.css";
-import { Link } from "react-router-dom";
 
 function App() {
   return (
