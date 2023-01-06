@@ -3,23 +3,33 @@ import logo from "./logo.svg";
 
 import { P } from "./patterns/atoms/Texts";
 import "./App.css";
+import { Header } from "./patterns/organisms/Headers";
 
 function App() {
   return (
-    <main
-      className="container"
-      // style={{ background: "#0D0B21" }}
-    >
-      <header className="flex justify-between">
+    <main className="container">
+      <header className="flex justify-between ">
         <div>
           <img src={logo} className="h-10 w-12" alt="logo" />
         </div>
-        <div className="text-white flex justify-between">
-          {/* <Link to=""> */}
-          <P fontSize="16px" className="capitalize">
-            About
-          </P>
-          {/* </Link> */}
+        <Header />
+        <div className="text-white">
+          <div>
+            {/* <Link to=""> */}
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <P fontSize="16px" className="capitalize">
+                About
+              </P>
+            </a>
+
+            {/* </Link> */}
+          </div>
+
           <div>
             <P>Skills</P>
           </div>
@@ -33,19 +43,14 @@ function App() {
             <P>Testimonials</P>
           </div>
         </div>
-
-        {/* <p className="text-red-500">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
       </header>
+
+      <p className="text-red-500">
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
+      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+        Learn React
+      </a>
     </main>
   );
 }
