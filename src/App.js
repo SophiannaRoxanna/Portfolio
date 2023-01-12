@@ -16,7 +16,7 @@ function App() {
         <div className="text-white">
           <div>
             {/* <Link to=""> */}
-            <a
+            {/* <a
               className="App-link"
               href="https://reactjs.org"
               target="_blank"
@@ -25,12 +25,12 @@ function App() {
               <P fontSize="16px" className="capitalize">
                 About
               </P>
-            </a>
+            </a> */}
 
             {/* </Link> */}
           </div>
 
-          <div>
+          {/* <div>
             <P>Skills</P>
           </div>
           <div>
@@ -41,7 +41,7 @@ function App() {
           </div>
           <div>
             <P>Testimonials</P>
-          </div>
+          </div> */}
         </div>
       </header>
 
