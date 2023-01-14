@@ -4,6 +4,7 @@ import logo from "./logo.svg";
 import { P } from "./patterns/atoms/Texts";
 import "./App.css";
 import { Header } from "./patterns/organisms/Headers";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -15,19 +16,18 @@ function App() {
         <Header />
         <div className="text-white">
           <div>
-            {/* <Link to=""> */}
-            {/* <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <P fontSize="16px" className="capitalize">
-                About
-              </P>
-            </a> */}
-
-            {/* </Link> */}
+            <Link to="">
+              <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <P fontSize="16px" className="capitalize">
+                  About
+                </P>
+              </a>
+            </Link>
           </div>
 
           {/* <div>
