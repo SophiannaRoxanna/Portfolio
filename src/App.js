@@ -13,7 +13,7 @@ function App() {
         <div>
           <img src={logo} className="h-10 w-12" alt="logo" />
         </div>
-        <Header />
+        {/* <Header /> */}
         <div className="text-white">
           <div>
             <Link to="">
