@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 
 import { P } from "./patterns/atoms/Texts";
 import "./App.css";
-import { Header } from "./patterns/organisms/Headers";
+// import { Header } from "./patterns/organisms/Headers";
 import { Link } from "react-router-dom";
 
 function App() {
