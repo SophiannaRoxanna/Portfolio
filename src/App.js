@@ -14,7 +14,7 @@ function App() {
           <img src={logo} className="h-10 w-12" alt="logo" />
         </div>
         {/* <Header /> */}
-        <div className="text-white mt-8">
+        <div className="text-white flex items-center justify-evenly gap-9 mt-8">
           {/* About */}
           <div>
             {/* <Link to=""> */}
