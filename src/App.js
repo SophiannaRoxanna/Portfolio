@@ -94,18 +94,6 @@ function App() {
             </a>
             {/* </Link> */}
           </div>
-          {/* <div>
-            <P>Skills</P>
-          </div>
-          <div>
-            <P>Portfolio</P>
-          </div>
-          <div>
-            <P>Work</P>
-          </div>
-          <div>
-            <P>Testimonials</P>
-          </div> */}
         </div>
       </header>
 
