@@ -14,7 +14,8 @@ function App() {
           <img src={logo} className="h-10 w-12" alt="logo" />
         </div>
         {/* <Header /> */}
-        <div className="text-white">
+        <div className="text-white mt-8">
+          {/* About */}
           <div>
             {/* <Link to=""> */}
             <a
@@ -30,6 +31,69 @@ function App() {
             {/* </Link> */}
           </div>
 
+          {/* Skills */}
+          <div>
+            {/* <Link to=""> */}
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <P fontSize="16px" className="capitalize">
+                Skills
+              </P>
+            </a>
+            {/* </Link> */}
+          </div>
+
+          {/* Portfolio */}
+          <div>
+            {/* <Link to=""> */}
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <P fontSize="16px" className="capitalize">
+                Portfolio
+              </P>
+            </a>
+            {/* </Link> */}
+          </div>
+
+          {/* Work */}
+          <div>
+            {/* <Link to=""> */}
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <P fontSize="16px" className="capitalize">
+                Work
+              </P>
+            </a>
+            {/* </Link> */}
+          </div>
+
+          {/* Testimonials */}
+          <div>
+            {/* <Link to=""> */}
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <P fontSize="16px" className="capitalize">
+                Testimonials
+              </P>
+            </a>
+            {/* </Link> */}
+          </div>
           {/* <div>
             <P>Skills</P>
           </div>
