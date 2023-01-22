@@ -3,8 +3,6 @@ import logo from "./logo.svg";
 
 import { P } from "./patterns/atoms/Texts";
 import "./App.css";
-// import { Header } from "./patterns/organisms/Headers";
-import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -17,7 +15,6 @@ function App() {
         <div className="text-white flex items-center justify-evenly gap-9 mt-8">
           {/* About */}
           <div>
-            {/* <Link to=""> */}
             <a
               className="App-link"
               href="https://reactjs.org"
@@ -28,12 +25,10 @@ function App() {
                 About
               </P>
             </a>
-            {/* </Link> */}
           </div>
 
           {/* Skills */}
           <div>
-            {/* <Link to=""> */}
             <a
               className="App-link"
               href="https://reactjs.org"
@@ -44,12 +39,10 @@ function App() {
                 Skills
               </P>
             </a>
-            {/* </Link> */}
           </div>
 
           {/* Portfolio */}
           <div>
-            {/* <Link to=""> */}
             <a
               className="App-link"
               href="https://reactjs.org"
@@ -60,12 +53,10 @@ function App() {
                 Portfolio
               </P>
             </a>
-            {/* </Link> */}
           </div>
 
           {/* Work */}
           <div>
-            {/* <Link to=""> */}
             <a
               className="App-link"
               href="https://reactjs.org"
@@ -76,12 +67,10 @@ function App() {
                 Work
               </P>
             </a>
-            {/* </Link> */}
           </div>
 
           {/* Testimonials */}
           <div>
-            {/* <Link to=""> */}
             <a
               className="App-link"
               href="https://reactjs.org"
@@ -92,7 +81,6 @@ function App() {
                 Testimonials
               </P>
             </a>
-            {/* </Link> */}
           </div>
         </div>
       </header>
