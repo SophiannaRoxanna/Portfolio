@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 
 import { P } from "./patterns/atoms/Texts";
 import "./App.css";
+import { PrimaryButton } from "./patterns/atoms/Buttons";
 
 function App() {
   return (
@@ -81,6 +82,12 @@ function App() {
                 Testimonials
               </P>
             </a>
+          </div>
+
+          <div>
+            <PrimaryButton bg="#1A8B9D" w="150px">
+              CONTACT
+            </PrimaryButton>
           </div>
         </div>
       </header>
